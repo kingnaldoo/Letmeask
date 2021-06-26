@@ -11,9 +11,6 @@ import { useAuth } from '../hooks/useAuth';
 
 import '../styles/auth.scss';
 
-
-
-
 export function Home() {
     const history = useHistory();
     const { signInWithGoogle, user } = useAuth();
@@ -38,6 +35,11 @@ export function Home() {
 
         if (!roomRef.exists()) {
             alert('Room dows not exists.');
+            return;
+        }
+
+        if (roomRef.val().endedAt) {
+            alert('Room already closed.');
             return;
         }
 
