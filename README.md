@@ -17,7 +17,7 @@ This application aims to facilitate the tracking of questions.
  * Firebase
 
 ## ✅ DEPLOY
-You can preview my application by clicking <a href="https://softcalc.kingnaldoo.repl.co" target="_blank">here</a>
+You can preview my application by clicking <a href="https://letmeask-iota-seven.vercel.app" target="_blank">here</a>
 
 ## 📝LICENSE
 This repository is under the license of [MIT LICENSE](LICENSE).<br><br>
